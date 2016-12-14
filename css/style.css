@@ -1,0 +1,92 @@
+a,a:hover{
+    text-decoration: none
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+}
+.clearfix:after {clear: both;
+
+}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}  
+
+.main {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background-color: rgba(0,120,201,0.20);
+  border-radius: 5px;
+  border: 2px solid black;
+  display: inline-block;
+}
+.title {
+  width: 60%;
+  height: 15%;
+  background-color: brown;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 9% 18% 10% 18%;
+  font: 18px arial; 
+  color: burlywood;
+}
+  
+.desc {
+  width: 83%;
+  height: 56%;
+  background-color: brown;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 1% 7% 4% 7%;
+  color: burlywood;
+}
+
+.btn_r {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin: 89px 4px 89px 4px;
+  font-size: 30px;
+  text-align: center;
+  background-color: lawngreen;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 215px; 
+}
+
+
+.btn_b {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin: 4px 89px 4px 89px;
+  font-size: 30px;
+  text-align: center;
+  background-color: lawngreen;
+}
+
+.btn_r:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+.btn_b:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+.body {
+  margin: 5px 40px 0px 0px;;
+  display: inline-block;
+  position: relative;
+}
+
